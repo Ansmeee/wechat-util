@@ -1,0 +1,25 @@
+{
+  "name": "ubi/utils",
+  "description": "ubi base utils",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "guzzlehttp/guzzle": "^6.5",
+    "phpoffice/phpspreadsheet": "1.8.0"
+  },
+  "authors": [
+    {
+      "name": "Ansme",
+      "email": "wenjunzheng@sohu-inc.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {"Ubi\\Utils\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ubi\\Utils\\Tests\\": "tests/"
+    }
+  }
+}
